@@ -1,6 +1,6 @@
 import { NavBar } from "./_components/navbar";
 import { OrgSidebar } from "./_components/orgsidebar";
-import { Sidebar } from "./_components/sidebar";
+import { Sidebar } from "./_components/sidebar/sidebar";
 
 export default function DashboardLayout({
   children,
