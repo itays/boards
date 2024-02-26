@@ -16,3 +16,7 @@
    also created <List> & <Item> components in the same folder, these components will be used to render the list of organizations in the sidebar. made some tweaks in the Clerk dashboard to make the organizations list more readable.
 
 4. Created a Hint Component in app/(dashboard)/\_components/Hint.tsx, this component will show a tooltip when hovered over, it's being used in the <NewButton> component. and also in the <Item> component to show the organization name when hovered over.
+
+## Organinzation sidebar
+
+Worked on the OrgSidebar component, added a OrganizationSwitcher component from clerk. and a couple of button links to switch between different organizations. I used the `useSearchParams` hook to differentiate between which button is currently active.
